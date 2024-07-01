@@ -2,127 +2,124 @@
 using Toybox.Graphics;
 [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 4; ]
+[ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 5; ]
 class NumberFactory extends WatchUi.PickerFactory{
-    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 4; ]
+    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 4; ]
+    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 5; @position = 15; ]
+    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 6; @position = 15; ]
     protected
-    var numberSet;
-    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 7; ]
+    var numberSet as Lang.Array;
+    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 8; ]
     function initialize(inNumberSet as Lang.Array) as Void {
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_7_51_10_4_start:
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 8 8 ]
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_8_51_11_4_start:
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 9 8 ]
         %tmp.2 = getv ? :PickerFactory;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 9 8 ]
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 10 8 ]
         %tmp.5 = lgetv %inNumberSet;
         putv self :numberSet %tmp.5;
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_7_51_10_4_stop:
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_8_51_11_4_stop:
     }
-    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 12; ]
+    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 13; ]
     function getIndex(value) {
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_12_29_15_4_start:
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 13 8 ]
-        [ "_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_12_29_15_4_start" "_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_12_29_15_4_stop" ]
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_13_29_16_4_start:
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 14 8 ]
+        [ "_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_13_29_16_4_start" "_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_13_29_16_4_stop" ]
         %index.1 = local;
         %tmp.2 = getv ? :numberSet;
-        %tmp.3 = getv function %tmp.2 :find;
+        %tmp.3 = getv function %tmp.2 :indexOf;
         %tmp.5 = lgetv %value;
         %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.5);
         lputv %index.1 %tmp.6;
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 14 8 ]
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 15 8 ]
         %tmp.8 = lgetv %index.1;
         ret %tmp.8;
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_12_29_15_4_stop:
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_13_29_16_4_stop:
     }
-    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 17; ]
+    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 18; ]
     function getSize() {
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_17_23_19_4_start:
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 18 8 ]
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_18_23_20_4_start:
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 19 8 ]
         %tmp.2 = getv ? :numberSet;
-        %tmp.3 = getv function %tmp.2 :length;
+        %tmp.3 = getv function %tmp.2 :size;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         ret %tmp.4;
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_17_23_19_4_stop:
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_18_23_20_4_stop:
     }
-    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 21; ]
+    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 22; ]
     function getValue(index) {
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_21_29_23_4_start:
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 22 8 ]
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_22_29_24_4_start:
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 23 8 ]
         %tmp.2 = getv ? :numberSet;
         %tmp.4 = lgetv %index;
         %tmp.5 = agetv %tmp.2 %tmp.4;
         ret %tmp.5;
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_21_29_23_4_stop:
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_22_29_24_4_stop:
     }
-    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 25; ]
+    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 26; ]
     function getDrawable(index, options) {
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_25_40_37_4_start:
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 26 8 ]
-        [ "_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_25_40_37_4_start" "_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_25_40_37_4_stop" ]
-        %draw.1 = local;
-        %tmp.1 = "x";
-        lputv %draw.1 %tmp.1;
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_26_40_38_4_start:
 [ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 27 8 ]
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_27_8_29_8_if_stmt:
+        [ "_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_26_40_38_4_start" "_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_26_40_38_4_stop" ]
+        %draw.1 = local;
+        %tmp.1 = "err";
+        lputv %draw.1 %tmp.1;
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 28 8 ]
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_28_8_30_8_if_stmt:
         %tmp.3 = lgetv %index;
         %tmp.4 = null;
         %tmp.5 = ne %tmp.3 %tmp.4;
-        bf %tmp.5 @_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_27_8_29_8_if_end;
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_27_8_29_8_if_true:
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_27_27_29_8_start:
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 28 12 ]
+        bf %tmp.5 @_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_28_8_30_8_if_end;
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_28_8_30_8_if_true:
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_28_27_30_8_start:
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 29 12 ]
         %tmp.6 = lgetv %index;
         %tmp.7 = as %tmp.6 { (!Null) };
         %tmp.8 = getv function %tmp.7 :toString;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         lputv %draw.1 %tmp.9;
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_27_27_29_8_stop:
-        goto @_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_27_8_29_8_if_end;
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_27_8_29_8_if_end:
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 30 8 ]
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_28_27_30_8_stop:
+        goto @_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_28_8_30_8_if_end;
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_28_8_30_8_if_end:
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" 31 8 ]
         %tmp.12 = getm $.Toybox.WatchUi;
         %tmp.13 = getv function ? %tmp.12 :Text;
         %tmp.14 = newd 5;
         %tmp.16 = const :text;
-        %tmp.17 = self;
-        %tmp.18 = getv function %tmp.17 :getValue;
-        %tmp.20 = lgetv %draw.1;
-        %tmp.21 = invoke %tmp.17 %tmp.18(%tmp.20);
-        %tmp.22 = getv function %tmp.21 :toString;
-        %tmp.23 = invoke %tmp.21 %tmp.22();
-        %tmp.24 = dup %tmp.14;
-        %tmp.25 = aputv %tmp.24 %tmp.16 %tmp.23;
-        %tmp.27 = const :color;
-        %tmp.28 = getm $.Toybox.Graphics;
-        %tmp.29 = getv %tmp.28 :COLOR_WHITE;
-        %tmp.30 = dup %tmp.25;
-        %tmp.31 = aputv %tmp.30 %tmp.27 %tmp.29;
-        %tmp.33 = const :font;
-        %tmp.34 = getm $.Toybox.Graphics;
-        %tmp.35 = getv %tmp.34 :FONT_LARGE;
-        %tmp.36 = dup %tmp.31;
-        %tmp.37 = aputv %tmp.36 %tmp.33 %tmp.35;
-        %tmp.39 = const :locX;
-        %tmp.40 = getm $.Toybox.WatchUi;
-        %tmp.41 = getv %tmp.40 :LAYOUT_HALIGN_CENTER;
-        %tmp.42 = dup %tmp.37;
-        %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
-        %tmp.45 = const :locY;
-        %tmp.46 = getm $.Toybox.WatchUi;
-        %tmp.47 = getv %tmp.46 :LAYOUT_VALIGN_CENTER;
-        %tmp.48 = dup %tmp.43;
-        %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
-        %tmp.10 = newc %tmp.13 (%tmp.49);
+        %tmp.18 = lgetv %draw.1;
+        %tmp.19 = dup %tmp.14;
+        %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+        %tmp.22 = const :color;
+        %tmp.23 = getm $.Toybox.Graphics;
+        %tmp.24 = getv %tmp.23 :COLOR_WHITE;
+        %tmp.25 = dup %tmp.20;
+        %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+        %tmp.28 = const :font;
+        %tmp.29 = getm $.Toybox.Graphics;
+        %tmp.30 = getv %tmp.29 :FONT_LARGE;
+        %tmp.31 = dup %tmp.26;
+        %tmp.32 = aputv %tmp.31 %tmp.28 %tmp.30;
+        %tmp.34 = const :locX;
+        %tmp.35 = getm $.Toybox.WatchUi;
+        %tmp.36 = getv %tmp.35 :LAYOUT_HALIGN_CENTER;
+        %tmp.37 = dup %tmp.32;
+        %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
+        %tmp.40 = const :locY;
+        %tmp.41 = getm $.Toybox.WatchUi;
+        %tmp.42 = getv %tmp.41 :LAYOUT_VALIGN_CENTER;
+        %tmp.43 = dup %tmp.38;
+        %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
+        %tmp.10 = newc %tmp.13 (%tmp.44);
         ret %tmp.10;
-_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_25_40_37_4_stop:
+_Users_linusjern_Documents_Code_rolling_pace_source_NumberFactory_mc_26_40_38_4_stop:
     }
 }
 [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc"; @line = 1; ]

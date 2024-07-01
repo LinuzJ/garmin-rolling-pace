@@ -12,9 +12,10 @@ class RollingPaceView extends WatchUi.SimpleDataField {
     }
 
     function compute(info as Activity.Info) as Numeric or Duration or String or Null {
-        // See Activity.Info in the documentation for available information.
-        var test = Activity.Info;
-        return test;
+        if (info.currentLocation == null) {
+            return 0.0;
+        }
+        return info.currentLocation;
     }
 
 }

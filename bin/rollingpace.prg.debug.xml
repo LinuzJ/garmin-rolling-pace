@@ -2,78 +2,261 @@
 <debugInfo>
     <manifest filename="/Users/linusjern/Documents/Code/rolling-pace/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/bin/gen/006-B4313-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceView.mc" id="3" lineNum="6" parent="globals/rolling_paceView" pc="268435501" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceApp.mc" id="4" lineNum="5" parent="globals/rolling_paceApp" pc="268435513" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceView.mc" id="5" lineNum="18" parent="globals/rolling_paceView" pc="268435525" symbol="compute"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceView.mc" id="5" lineNum="20" parent="globals/rolling_paceView" pc="268435527" symbol="compute"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceView.mc" id="6" lineNum="9" parent="globals/rolling_paceView" pc="268435529" symbol="initialize"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceView.mc" id="6" lineNum="10" parent="globals/rolling_paceView" pc="268435531" symbol="initialize"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceView.mc" id="6" lineNum="11" parent="globals/rolling_paceView" pc="268435543" symbol="initialize"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceApp.mc" id="7" lineNum="12" parent="globals/rolling_paceApp" pc="268435556" symbol="onStart"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceApp.mc" id="8" lineNum="20" parent="globals/rolling_paceApp" pc="268435559" symbol="getInitialView"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceApp.mc" id="8" lineNum="21" parent="globals/rolling_paceApp" pc="268435561" symbol="getInitialView"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceApp.mc" id="9" lineNum="7" parent="globals/rolling_paceApp" pc="268435591" symbol="initialize"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceApp.mc" id="9" lineNum="8" parent="globals/rolling_paceApp" pc="268435593" symbol="initialize"/>
-        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/rolling-paceApp.mc" id="10" lineNum="16" parent="globals/rolling_paceApp" pc="268435606" symbol="onStop"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="1" lineNum="29" parent="globals/DurationPickerDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="2" lineNum="5" parent="globals/NumberFactory" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="3" lineNum="5" parent="globals/DurationPicker" pc="268435484" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="4" lineNum="28" parent="globals" pc="268435496" symbol="getApp"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="4" lineNum="29" parent="globals" pc="268435506" symbol="getApp"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="5" lineNum="6" parent="globals/AppSettingsDelegate" pc="268435517" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/bin/gen/006-B4313-00/source/Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435529" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="7" lineNum="6" parent="globals/RollingPaceApp" pc="268435549" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceView.mc" id="8" lineNum="6" parent="globals/RollingPaceView" pc="268435561" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="9" lineNum="24" parent="globals/AppSettingsView" pc="268435573" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="10" lineNum="37" parent="globals/DurationPickerDelegate" pc="268435585" symbol="onCancel"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="10" lineNum="38" parent="globals/DurationPickerDelegate" pc="268435587" symbol="onCancel"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="10" lineNum="39" parent="globals/DurationPickerDelegate" pc="268435601" symbol="onCancel"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="11" lineNum="32" parent="globals/DurationPickerDelegate" pc="268435603" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="11" lineNum="33" parent="globals/DurationPickerDelegate" pc="268435605" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="11" lineNum="34" parent="globals/DurationPickerDelegate" pc="268435617" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="12" lineNum="42" parent="globals/DurationPickerDelegate" pc="268435627" symbol="onAccept"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="12" lineNum="43" parent="globals/DurationPickerDelegate" pc="268435629" symbol="onAccept"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="12" lineNum="44" parent="globals/DurationPickerDelegate" pc="268435657" symbol="onAccept"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="13" lineNum="22" parent="globals/NumberFactory" pc="268435659" symbol="getValue"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="13" lineNum="23" parent="globals/NumberFactory" pc="268435661" symbol="getValue"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="14" lineNum="18" parent="globals/NumberFactory" pc="268435670" symbol="getSize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="14" lineNum="19" parent="globals/NumberFactory" pc="268435672" symbol="getSize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="15" lineNum="26" parent="globals/NumberFactory" pc="268435684" symbol="getDrawable"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="15" lineNum="27" parent="globals/NumberFactory" pc="268435687" symbol="getDrawable"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="15" lineNum="28" parent="globals/NumberFactory" pc="268435694" symbol="getDrawable"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="15" lineNum="29" parent="globals/NumberFactory" pc="268435700" symbol="getDrawable"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="15" lineNum="31" parent="globals/NumberFactory" pc="268435713" symbol="getDrawable"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="16" lineNum="13" parent="globals/NumberFactory" pc="268435790" symbol="getIndex"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="16" lineNum="14" parent="globals/NumberFactory" pc="268435793" symbol="getIndex"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="16" lineNum="15" parent="globals/NumberFactory" pc="268435810" symbol="getIndex"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="17" lineNum="8" parent="globals/NumberFactory" pc="268435813" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="17" lineNum="9" parent="globals/NumberFactory" pc="268435815" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/NumberFactory.mc" id="17" lineNum="10" parent="globals/NumberFactory" pc="268435827" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="18" lineNum="10" parent="globals/DurationPicker" pc="268435837" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="18" lineNum="11" parent="globals/DurationPicker" pc="268435840" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="18" lineNum="12" parent="globals/DurationPicker" pc="268435869" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="18" lineNum="14" parent="globals/DurationPicker" pc="268435900" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="18" lineNum="15" parent="globals/DurationPicker" pc="268435904" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="18" lineNum="17" parent="globals/DurationPicker" pc="268435923" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="18" lineNum="19" parent="globals/DurationPicker" pc="268435998" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="19" lineNum="22" parent="globals/DurationPicker" pc="268436052" symbol="onUpdate"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="19" lineNum="23" parent="globals/DurationPicker" pc="268436054" symbol="onUpdate"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="19" lineNum="24" parent="globals/DurationPicker" pc="268436066" symbol="onUpdate"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" id="19" lineNum="25" parent="globals/DurationPicker" pc="268436074" symbol="onUpdate"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="20" lineNum="19" parent="globals/AppSettingsDelegate" pc="268436091" symbol="onBack"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="20" lineNum="20" parent="globals/AppSettingsDelegate" pc="268436093" symbol="onBack"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="21" lineNum="8" parent="globals/AppSettingsDelegate" pc="268436109" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="21" lineNum="9" parent="globals/AppSettingsDelegate" pc="268436111" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="22" lineNum="12" parent="globals/AppSettingsDelegate" pc="268436124" symbol="onSelect"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="22" lineNum="13" parent="globals/AppSettingsDelegate" pc="268436127" symbol="onSelect"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="22" lineNum="14" parent="globals/AppSettingsDelegate" pc="268436150" symbol="onSelect"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="22" lineNum="15" parent="globals/AppSettingsDelegate" pc="268436174" symbol="onSelect"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="23" lineNum="12" parent="globals/RollingPaceApp" pc="268436218" symbol="onStart"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="24" lineNum="22" parent="globals/RollingPaceApp" pc="268436221" symbol="getSettingsView"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="24" lineNum="23" parent="globals/RollingPaceApp" pc="268436223" symbol="getSettingsView"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="25" lineNum="18" parent="globals/RollingPaceApp" pc="268436278" symbol="getInitialView"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="25" lineNum="19" parent="globals/RollingPaceApp" pc="268436280" symbol="getInitialView"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="26" lineNum="8" parent="globals/RollingPaceApp" pc="268436310" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="26" lineNum="9" parent="globals/RollingPaceApp" pc="268436312" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceApp.mc" id="27" lineNum="15" parent="globals/RollingPaceApp" pc="268436325" symbol="onStop"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceView.mc" id="28" lineNum="14" parent="globals/RollingPaceView" pc="268436328" symbol="compute"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceView.mc" id="28" lineNum="15" parent="globals/RollingPaceView" pc="268436330" symbol="compute"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceView.mc" id="28" lineNum="16" parent="globals/RollingPaceView" pc="268436340" symbol="compute"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceView.mc" id="28" lineNum="18" parent="globals/RollingPaceView" pc="268436345" symbol="compute"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceView.mc" id="29" lineNum="9" parent="globals/RollingPaceView" pc="268436352" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceView.mc" id="29" lineNum="10" parent="globals/RollingPaceView" pc="268436354" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/RollingPaceView.mc" id="29" lineNum="11" parent="globals/RollingPaceView" pc="268436366" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="30" lineNum="43" parent="globals/AppSettingsView" pc="268436379" symbol="onShow"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="30" lineNum="44" parent="globals/AppSettingsView" pc="268436382" symbol="onShow"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="30" lineNum="45" parent="globals/AppSettingsView" pc="268436408" symbol="onShow"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="30" lineNum="46" parent="globals/AppSettingsView" pc="268436419" symbol="onShow"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="30" lineNum="48" parent="globals/AppSettingsView" pc="268436428" symbol="onShow"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="30" lineNum="49" parent="globals/AppSettingsView" pc="268436439" symbol="onShow"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="30" lineNum="50" parent="globals/AppSettingsView" pc="268436445" symbol="onShow"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="30" lineNum="51" parent="globals/AppSettingsView" pc="268436467" symbol="onShow"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="31" lineNum="27" parent="globals/AppSettingsView" pc="268436486" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="31" lineNum="28" parent="globals/AppSettingsView" pc="268436488" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="31" lineNum="30" parent="globals/AppSettingsView" pc="268436518" symbol="initialize"/>
+        <entry filename="/Users/linusjern/Documents/Code/rolling-pace/source/AppSettings.mc" id="31" lineNum="32" parent="globals/AppSettingsView" pc="268436549" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389626" method="true" symbol="onAccept"/>
+        <entry id="8389346" symbol="text"/>
+        <entry field="true" id="12" symbol="hPicker"/>
+        <entry field="true" id="15" symbol="numberTitleText"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="11" object="true" symbol="RollingPaceView"/>
+        <entry id="8389629" method="true" symbol="getValue"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="8" symbol="AppName"/>
+        <entry id="10" object="true" symbol="RollingPaceApp"/>
+        <entry field="true" id="20" symbol="AppName"/>
+        <entry field="true" id="13" symbol="numberSet"/>
         <entry id="4" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="9" object="true" symbol="NumberFactory"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389630" method="true" symbol="getSize"/>
         <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="17" symbol="mMenu"/>
         <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="8389644" symbol="defaults"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389628" method="true" symbol="getDrawable"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="7" symbol="LauncherIcon"/>
+        <entry field="true" id="19" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry id="5" object="true" symbol="rolling_paceApp"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="6" object="true" symbol="AppSettingsView"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389541" method="true" symbol="onCancel"/>
+        <entry id="8391703" method="true" symbol="getSettingsView"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="21" symbol="RAD"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="6" object="true" symbol="rolling_paceView"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="14" symbol="numberFactory"/>
+        <entry id="8392011" method="true" symbol="getIndex"/>
+        <entry id="8389643" symbol="pattern"/>
+        <entry id="16" symbol="options"/>
+        <entry id="5" object="true" symbol="AppSettingsDelegate"/>
+        <entry id="7" object="true" symbol="DurationPicker"/>
         <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry field="true" id="18" symbol="currentRollingAverageDuration"/>
+        <entry id="8" object="true" symbol="DurationPickerDelegate"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435528" name="info" stackId="1" startPc="268435525"/>
+        <entry arg="true" endPc="268435626" name="picker" stackId="1" startPc="268435603"/>
+        <entry arg="true" endPc="268435658" name="values" stackId="1" startPc="268435627"/>
+        <entry arg="true" endPc="268435669" name="index" stackId="1" startPc="268435659"/>
+        <entry arg="true" endPc="268435789" name="index" stackId="1" startPc="268435684"/>
+        <entry arg="true" endPc="268435789" name="options" stackId="2" startPc="268435684"/>
+        <entry endPc="268435789" name="draw" stackId="3" startPc="268435687"/>
+        <entry arg="true" endPc="268435812" name="value" stackId="1" startPc="268435790"/>
+        <entry endPc="268435812" name="index" stackId="2" startPc="268435793"/>
+        <entry arg="true" endPc="268435836" name="inNumberSet" stackId="1" startPc="268435813"/>
+        <entry endPc="268436050" name="numberFactory" stackId="1" startPc="268435840"/>
+        <entry endPc="268436050" name="current" stackId="2" startPc="268435840"/>
+        <entry endPc="268436050" name="titleText" stackId="3" startPc="268435840"/>
+        <entry endPc="268436050" name="defaults" stackId="4" startPc="268435840"/>
+        <entry arg="true" endPc="268436090" name="dc" stackId="1" startPc="268436052"/>
+        <entry arg="true" endPc="268436217" name="item" stackId="1" startPc="268436124"/>
+        <entry endPc="268436213" name="durationPicker" stackId="2" startPc="268436150"/>
+        <entry arg="true" endPc="268436351" name="info" stackId="1" startPc="268436328"/>
+        <entry endPc="268436484" name="rollingAverageDuration" stackId="1" startPc="268436382"/>
+        <entry endPc="268436481" name="item" stackId="2" startPc="268436419"/>
     </localVars>
     <deviceInfo deviceVersion="4866e5192c0c99025597cd8e6e841f3d774b64f7" partNumber="006-B4313-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="RAD"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/Rez" offset="116" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/rolling_paceView" offset="160" parentId="globals" symbolId="rolling_paceView" type="class"/>
-        <dataEntry label="globals/rolling_paceApp" offset="213" parentId="globals" symbolId="rolling_paceApp" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="284" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="319" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/DurationPickerDelegate" offset="161" parentId="globals" symbolId="DurationPickerDelegate" type="class"/>
+        <dataEntry label="globals/NumberFactory" offset="232" parentId="globals" symbolId="NumberFactory" type="class"/>
+        <dataEntry label="globals/DurationPicker" offset="321" parentId="globals" symbolId="DurationPicker" type="class"/>
+        <dataEntry label="globals/AppSettingsDelegate" offset="401" parentId="globals" symbolId="AppSettingsDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="472" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/RollingPaceApp" offset="516" parentId="globals" symbolId="RollingPaceApp" type="class"/>
+        <dataEntry label="globals/RollingPaceView" offset="596" parentId="globals" symbolId="RollingPaceView" type="class"/>
+        <dataEntry label="globals/AppSettingsView" offset="649" parentId="globals" symbolId="AppSettingsView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="711" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="746" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="DurationPickerDelegate" startPc="268435460">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="NumberFactory" startPc="268435472">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="rolling_paceView" startPc="268435501">
+        <functionEntry accessMode="public" endPc="268435495" name="&lt;init&gt;" parent="DurationPicker" startPc="268435484">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="rolling_paceApp" startPc="268435513">
+        <functionEntry accessMode="public" endPc="268435516" name="getApp" startPc="268435496">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="AppSettingsDelegate" startPc="268435517">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="Rez" startPc="268435529">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435560" name="&lt;init&gt;" parent="RollingPaceApp" startPc="268435549">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435572" name="&lt;init&gt;" parent="RollingPaceView" startPc="268435561">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435584" name="&lt;init&gt;" parent="AppSettingsView" startPc="268435573">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435602" name="onCancel" parent="DurationPickerDelegate" startPc="268435585">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435626" name="initialize" parent="DurationPickerDelegate" startPc="268435603">
+            <param id="picker"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435658" name="onAccept" parent="DurationPickerDelegate" startPc="268435627">
+            <param id="values"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435669" name="getValue" parent="NumberFactory" startPc="268435659">
+            <param id="index"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435683" name="getSize" parent="NumberFactory" startPc="268435670">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435789" name="getDrawable" parent="NumberFactory" startPc="268435684">
+            <param id="index"/>
+            <param id="options"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435812" name="getIndex" parent="NumberFactory" startPc="268435790">
+            <param id="value"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435836" name="initialize" parent="NumberFactory" startPc="268435813">
+            <param id="inNumberSet"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436051" name="initialize" parent="DurationPicker" startPc="268435837">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436090" name="onUpdate" parent="DurationPicker" startPc="268436052">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436108" name="onBack" parent="AppSettingsDelegate" startPc="268436091">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436123" name="initialize" parent="AppSettingsDelegate" startPc="268436109">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436217" name="onSelect" parent="AppSettingsDelegate" startPc="268436124">
+            <param id="item"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -82,25 +265,34 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435528" name="compute" parent="rolling_paceView" startPc="268435525">
+        <functionEntry accessMode="public" endPc="268436220" name="onStart" parent="RollingPaceApp" startPc="268436218">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436277" name="getSettingsView" parent="RollingPaceApp" startPc="268436221">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436309" name="getInitialView" parent="RollingPaceApp" startPc="268436278">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436324" name="initialize" parent="RollingPaceApp" startPc="268436310">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436327" name="onStop" parent="RollingPaceApp" startPc="268436325">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436351" name="compute" parent="RollingPaceView" startPc="268436328">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435555" name="initialize" parent="rolling_paceView" startPc="268435529">
+        <functionEntry accessMode="public" endPc="268436378" name="initialize" parent="RollingPaceView" startPc="268436352">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435558" name="onStart" parent="rolling_paceApp" startPc="268435556">
-            <param id="state"/>
+        <functionEntry accessMode="public" endPc="268436485" name="onShow" parent="AppSettingsView" startPc="268436379">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435590" name="getInitialView" parent="rolling_paceApp" startPc="268435559">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435605" name="initialize" parent="rolling_paceApp" startPc="268435591">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435608" name="onStop" parent="rolling_paceApp" startPc="268435606">
-            <param id="state"/>
+        <functionEntry accessMode="public" endPc="268436617" name="initialize" parent="AppSettingsView" startPc="268436486">
             <documentation/>
         </functionEntry>
     </functions>

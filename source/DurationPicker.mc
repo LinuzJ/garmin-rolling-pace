@@ -36,11 +36,12 @@ class DurationPickerDelegate extends WatchUi.PickerDelegate {
 
     function onCancel() {
         WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
+        return true;
     }
 
     function onAccept(values) {
-        Application.getApp().setProperty("rollingAverageDuration", values);
-        WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
+        Application.getApp().setProperty("rollingAverageDuration", values[0]);
+        return true;
     }
 
 }

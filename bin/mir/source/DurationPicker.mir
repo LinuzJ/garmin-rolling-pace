@@ -164,33 +164,35 @@ _Users_linusjern_Documents_Code_rolling_pace_source_DurationPicker_mc_32_32_35_4
     }
     [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc"; @line = 37; ]
     function onCancel() {
-_Users_linusjern_Documents_Code_rolling_pace_source_DurationPicker_mc_37_24_39_4_start:
+_Users_linusjern_Documents_Code_rolling_pace_source_DurationPicker_mc_37_24_40_4_start:
 [ "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" 38 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :popView;
         %tmp.3 = getm $.Toybox.WatchUi;
         %tmp.4 = getv %tmp.3 :SLIDE_IMMEDIATE;
         invoke %tmp.1 %tmp.2(%tmp.4);
-_Users_linusjern_Documents_Code_rolling_pace_source_DurationPicker_mc_37_24_39_4_stop:
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" 39 8 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+_Users_linusjern_Documents_Code_rolling_pace_source_DurationPicker_mc_37_24_40_4_stop:
     }
-    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc"; @line = 41; ]
+    [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc"; @line = 42; ]
     function onAccept(values) {
-_Users_linusjern_Documents_Code_rolling_pace_source_DurationPicker_mc_41_30_44_4_start:
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" 42 8 ]
+_Users_linusjern_Documents_Code_rolling_pace_source_DurationPicker_mc_42_30_45_4_start:
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" 43 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv function %tmp.1 :getApp;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = getv function %tmp.3 :setProperty;
         %tmp.5 = "rollingAverageDuration";
         %tmp.7 = lgetv %values;
-        invoke %tmp.3 %tmp.4(%tmp.5, %tmp.7);
-[ "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" 43 8 ]
-        %tmp.8 = getm $.Toybox.WatchUi;
-        %tmp.9 = getv function %tmp.8 :popView;
-        %tmp.10 = getm $.Toybox.WatchUi;
-        %tmp.11 = getv %tmp.10 :SLIDE_IMMEDIATE;
-        invoke %tmp.8 %tmp.9(%tmp.11);
-_Users_linusjern_Documents_Code_rolling_pace_source_DurationPicker_mc_41_30_44_4_stop:
+        %tmp.8 = 0;
+        %tmp.9 = agetv %tmp.7 %tmp.8;
+        invoke %tmp.3 %tmp.4(%tmp.5, %tmp.9);
+[ "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc" 44 8 ]
+        %tmp.10 = true;
+        ret %tmp.10;
+_Users_linusjern_Documents_Code_rolling_pace_source_DurationPicker_mc_42_30_45_4_stop:
     }
 }
 [ @file = "/Users/linusjern/Documents/Code/rolling-pace/source/DurationPicker.mc"; @line = 1; ]
