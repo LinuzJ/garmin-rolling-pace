@@ -1,0 +1,11 @@
+<resources>
+	<strings>
+		<string id="isDistTitle">Average over distance or time?</string>
+		<string id="dist">Distance</string>
+		<string id="time">Time</string>
+		<string id="rollingDurationTitle">Rolling avg over dist or time</string>
+		<string id="enterNumber">Enter a number</string>
+		<string id="No">No</string>
+		<string id="Yes">Yes</string>
+	</strings>
+</resources>

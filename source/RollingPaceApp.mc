@@ -19,12 +19,4 @@ class RollingPaceApp extends Application.AppBase {
         return [ new RollingPaceView() ];
     }
 
-    function getSettingsView() {
-        return [ new AppSettingsView(), new AppSettingsDelegate() ];
-    }
-
-}
-
-function getApp() as RollingPaceApp {
-    return Application.getApp() as RollingPaceApp;
 }
